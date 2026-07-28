@@ -1,30 +1,19 @@
-# ==========================================
-# 1. PYTHON & FLASK (BACKEND)
-# ==========================================
-# Virtual Environment
 venv/
 .venv/
 env/
 ENV/
 backend/venv/
 
-# Byte-compiled / Cache files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Pytest / Coverage / Database lokal
 .pytest_cache/
 *.sqlite3
 
-# Environment Variables / Secrets
 .env
 .env.local
 
-# ==========================================
-# 2. FLUTTER & DART (FRONTEND)
-# ==========================================
-# Build & Tool directories
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
@@ -34,19 +23,12 @@ __pycache__/
 build/
 ephemeral/
 
-# Web generated files
 lib/generated_plugin_registrant.dart
 
-# ==========================================
-# 3. IDE & EDITORS
-# ==========================================
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# ==========================================
-# 4. OS GENERATED FILES
-# ==========================================
 .DS_Store
 Thumbs.db
